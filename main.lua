@@ -20,7 +20,6 @@ end
 function love.keypressed()
   if state == "lovesplash" then
     lovesplash.stop()
-    state = "notlovesplash"
   else
     love.event.quit()
   end
@@ -29,7 +28,6 @@ end
 function love.mousepressed()
   if state == "lovesplash" then
     lovesplash.stop()
-    state = "notlovesplash"
   else
     love.event.quit()
   end
